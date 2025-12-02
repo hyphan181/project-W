@@ -1,0 +1,14 @@
+{
+  "name": "RoboEyes ESP32",
+  "board": "esp32doit-devkit-v1",
+  "program": "output/firmware.bin",
+  "parts": [
+    {
+      "type": "ssd1306",
+      "id": "oled",
+      "width": 128,
+      "height": 64,
+      "i2cAddress": 60
+    }
+  ]
+}
